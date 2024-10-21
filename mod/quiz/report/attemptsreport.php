@@ -22,4 +22,4 @@
  */
 defined('MOODLE_INTERNAL') || die();
 
-debugging('This file is no longer required in Moodle 4.2+. Please do not include/require it.', DEBUG_DEVELOPER);
+#debugging('This file is no longer required in Moodle 4.2+. Please do not include/require it.', DEBUG_DEVELOPER);
