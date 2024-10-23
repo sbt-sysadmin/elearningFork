@@ -31,8 +31,8 @@ defined('MOODLE_INTERNAL') || die();
 
 require_once($CFG->dirroot . '/mod/quiz/report/default.php');
 require_once($CFG->dirroot . '/mod/quiz/report/reportlib.php');
-require_once($CFG->dirroot . '/mod/quiz/report/attemptsreport.php');
-require_once($CFG->dirroot . '/mod/quiz/report/attemptsreport_options.php');
+#require_once($CFG->dirroot . '/mod/quiz/report/attemptsreport.php');
+#require_once($CFG->dirroot . '/mod/quiz/report/attemptsreport_options.php');
 
 /**
  * This file defines the options for the quiz answersheets report.
