@@ -29,7 +29,7 @@ use quiz_answersheets\utils;
 defined('MOODLE_INTERNAL') || die();
 
 
-require_once($CFG->dirroot . '/mod/quiz/report/attemptsreport.php');
+#require_once($CFG->dirroot . '/mod/quiz/report/attemptsreport.php');
 
 /**
  * This file defines the export quiz attempts report class.

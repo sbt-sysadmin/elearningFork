@@ -69,11 +69,12 @@ if (!is_readable("report/$mode/report.php")) {
     throw new \moodle_exception('reportnotfound', 'quiz', '', $mode);
 }
 
-// Open the selected quiz report and display it.
-$file = $CFG->dirroot . '/mod/quiz/report/' . $mode . '/report.php';
-if (is_readable($file)) {
-    include_once($file);
-}
+#// Open the selected quiz report and display it.
+#$file = $CFG->dirroot . '/mod/quiz/report/' . $mode . '/report.php';
+#if (is_readable($file)) {
+#    include_once($file);
+#}
+
 $reportclassname = 'quiz_' . $mode . '_report';
 if (!class_exists($reportclassname)) {
     throw new \moodle_exception('preprocesserror', 'quiz');
